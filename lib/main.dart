@@ -21,6 +21,7 @@ import 'package:flutter_full_learn/101/3-scaffold_learn.dart';
 import 'package:flutter_full_learn/101/1-text_learn_view.dart';
 import 'package:flutter_full_learn/example/example2.dart';
 import 'package:flutter_full_learn/example/example3.dart';
+import 'package:flutter_full_learn/example/example4.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(centerTitle: true,)
       ),
-      home:  TextFieldLearn(),
+      home:  Example4(),
     );
   }
 }
