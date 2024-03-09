@@ -31,9 +31,9 @@ currentIndex=value;
               padding: const EdgeInsets.all(8.0),
               child: TextField(
                 buildCounter: (context, {required currentLength, required isFocused, required maxLength}) {
-                 print("asd"*currentLength);
+                  return Text("data");
                 },
-                decoration: InputDecoration(border: OutlineInputBorder()),
+                decoration: const InputDecoration(border: OutlineInputBorder()),
                 
               ),
             ),

@@ -27,6 +27,7 @@ import 'package:flutter_full_learn/101/1-text_learn_view.dart';
 import 'package:flutter_full_learn/example/example2.dart';
 import 'package:flutter_full_learn/example/example3.dart';
 import 'package:flutter_full_learn/example/example4.dart';
+import 'package:flutter_full_learn/example/example5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -45,7 +46,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(centerTitle: true,)
       ),
-      home:  NavigatonLearn(),
+      home:  Example5(),
     );
   }
 }

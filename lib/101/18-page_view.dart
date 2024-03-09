@@ -60,11 +60,11 @@ class _PageViewLearnState extends State<PageViewLearn> {
 }
 
 class StatusContainer extends StatelessWidget {
-   StatusContainer({
+   const StatusContainer({
     super.key,required this.color,required this.index
   });
-Color color;
-int index;
+final Color color;
+final int index;
   @override
   Widget build(BuildContext context) {
     return Container(color: color,child: Center(child: Text((index+1).toString(),style: Theme.of(context).textTheme.displayLarge,),),);
