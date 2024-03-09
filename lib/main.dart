@@ -9,6 +9,7 @@ import 'package:flutter_full_learn/101/19-stateful_life_cycle.dart';
 import 'package:flutter_full_learn/101/20-textfield_learn.dart';
 import 'package:flutter_full_learn/101/21-list_view_learn.dart';
 import 'package:flutter_full_learn/101/22-list_view_builder_learn.dart';
+import 'package:flutter_full_learn/101/23-navigation_learn.dart';
 import 'package:flutter_full_learn/101/5-app_bar_learn.dart';
 import 'package:flutter_full_learn/101/6-icon_learn.dart';
 import 'package:flutter_full_learn/101/7-color_learn.dart';
@@ -44,7 +45,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(centerTitle: true,)
       ),
-      home:  ListViewBuilderLearn(),
+      home:  NavigatonLearn(),
     );
   }
 }
