@@ -15,6 +15,8 @@ import 'package:flutter_full_learn/101/9-padding_learn.dart';
 import 'package:flutter_full_learn/101/12-custom_widget_learn.dart';
 import 'package:flutter_full_learn/101/15-column_row_learn.dart';
 import 'package:flutter_full_learn/101/17-stateful_learn.dart';
+import 'package:flutter_full_learn/example/color_life_cycle_demos.dart';
+import 'package:flutter_full_learn/example/colordemos.dart';
 import 'package:flutter_full_learn/example/example1.dart';
 import 'package:flutter_full_learn/101/2-container_sized_box_learn.dart';
 import 'package:flutter_full_learn/101/3-scaffold_learn.dart';
@@ -40,7 +42,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         appBarTheme: AppBarTheme(centerTitle: true,)
       ),
-      home:  Example4(),
+      home:  ColorLifeCycleView(),
     );
   }
 }
