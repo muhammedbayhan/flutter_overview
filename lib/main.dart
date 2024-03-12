@@ -18,6 +18,7 @@ import 'package:flutter_full_learn/101/9-padding_learn.dart';
 import 'package:flutter_full_learn/101/12-custom_widget_learn.dart';
 import 'package:flutter_full_learn/101/15-column_row_learn.dart';
 import 'package:flutter_full_learn/101/17-stateful_learn.dart';
+import 'package:flutter_full_learn/202/animated_learn.dart';
 import 'package:flutter_full_learn/202/image_learn.dart';
 import 'package:flutter_full_learn/202/package_learn.dart';
 import 'package:flutter_full_learn/202/service/service_learn_view.dart';
@@ -53,7 +54,7 @@ class MyApp extends StatelessWidget {
       //  ThemeData.dark().copyWith(
       //   appBarTheme: AppBarTheme(centerTitle: true,)
       // ),
-      home:  ImageLearnView()
+      home:  AnimatedLearn()
     );
   }
 }
