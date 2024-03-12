@@ -18,8 +18,11 @@ import 'package:flutter_full_learn/101/9-padding_learn.dart';
 import 'package:flutter_full_learn/101/12-custom_widget_learn.dart';
 import 'package:flutter_full_learn/101/15-column_row_learn.dart';
 import 'package:flutter_full_learn/101/17-stateful_learn.dart';
+import 'package:flutter_full_learn/202/package_learn.dart';
 import 'package:flutter_full_learn/202/service/service_learn_view.dart';
 import 'package:flutter_full_learn/202/tab_learn.dart';
+import 'package:flutter_full_learn/202/textfield_password.dart';
+import 'package:flutter_full_learn/202/theme/light_theme.dart';
 import 'package:flutter_full_learn/example/color_life_cycle_demos.dart';
 import 'package:flutter_full_learn/example/colordemos.dart';
 import 'package:flutter_full_learn/example/example1.dart';
@@ -45,10 +48,11 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',// desc title
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.dark().copyWith(
-        appBarTheme: AppBarTheme(centerTitle: true,)
-      ),
-      home:  ServiceLearnView(),
+      theme:LightTheme().theme,
+      //  ThemeData.dark().copyWith(
+      //   appBarTheme: AppBarTheme(centerTitle: true,)
+      // ),
+      home:  TextFieldPasswordView(hintText:  "adsad",),
     );
   }
 }
