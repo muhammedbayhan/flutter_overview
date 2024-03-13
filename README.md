@@ -12,7 +12,7 @@
 7-> tabbar
 8-> service,future
 9->package,passwordTextfield,theme
-10->extension, OOP, mixin, validate
+10->animated,extension, OOP, mixin, validate
 
 ## N
 expanded is only available on rows and columns
