@@ -1,9 +1,7 @@
-import 'dart:math';
+
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
-class AnimatedLearn extends StatefulWidget {
+import 'package:flutter/widgets.dart';class AnimatedLearn extends StatefulWidget {
   const AnimatedLearn({super.key});
 
   @override

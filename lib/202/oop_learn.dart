@@ -1,3 +1,0 @@
-class FileDownload {
-  void downloadItem(){ }
-}
