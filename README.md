@@ -13,4 +13,4 @@
 10. animated, extension, OOP, mixin, validate
 11. cache, compute, jwt, etc
 
-Note: `expanded` is only available on rows and columns.
+# Note: `expanded` is only available on rows and columns.
