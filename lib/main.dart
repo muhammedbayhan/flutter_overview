@@ -38,6 +38,7 @@ import 'package:flutter_full_learn/example/example2.dart';
 import 'package:flutter_full_learn/example/example3.dart';
 import 'package:flutter_full_learn/example/example4.dart';
 import 'package:flutter_full_learn/example/example5.dart';
+import 'package:flutter_full_learn/example/example6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -57,7 +58,7 @@ class MyApp extends StatelessWidget {
       //  ThemeData.dark().copyWith(
       //   appBarTheme: AppBarTheme(centerTitle: true,)
       // ),
-      home:  SharedLearn(),
+      home:  Example6(),
     );
   }
 }
