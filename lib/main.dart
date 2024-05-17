@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_full_learn/202/theme/light_theme.dart';
+import 'package:flutter_full_learn/303/lottie_view.dart';
 import 'package:flutter_full_learn/303/part_of_learn.dart';
 
 void main() {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       //  ThemeData.dark().copyWith(
       //   appBarTheme: AppBarTheme(centerTitle: true,)
       // ),
-      home:  PartOfLearn(),
+      home:  LottieView(),
     );
   }
 }
