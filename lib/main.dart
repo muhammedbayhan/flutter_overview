@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_full_learn/202/theme/light_theme.dart';
-import 'package:flutter_full_learn/303/lottie_view.dart';
-import 'package:flutter_full_learn/example/jsonPlaceHolder/view/jsonplaceholder_home_view.dart';
+import 'package:flutter_full_learn/example/get/gaia_view.dart';
+import 'package:flutter_full_learn/example/get/localization_messages.dart';
+
+import 'package:get/route_manager.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,8 +13,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       //cupertino--> ios
+      translations: LocalizationMessages(), // your translations
+    locale: Get.deviceLocale,
+
+      fallbackLocale: Locale('en',
+          'UK'), // specify the fallback locale in case an invalid locale is selected.
 
       title: 'Flutter Demo', // desc title
       debugShowCheckedModeBanner: false,
@@ -23,7 +29,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: JsonplaceholderHomeView(),
+      home: GaiaView(),
     );
   }
 }
